@@ -90,7 +90,7 @@ They are in charge of helping their group, answering questions and preventing th
 
 In order to help mentors in tracking the progress of their groups, we suggest using the following template:
 
-- [Progress  Question Tracking template](https://docs.google.com/spreadsheets/d/1nODnLBLCcC6Dqe_pK_bog-BA78E9AuUq1l4S81Px61w/edit?usp=sharing)
+- [Progress Question Tracking template](https://docs.google.com/spreadsheets/d/1nODnLBLCcC6Dqe_pK_bog-BA78E9AuUq1l4S81Px61w/edit?usp=sharing)
 
 #### Setup
 
@@ -117,6 +117,8 @@ The Lisbon Data Science Academy has already implemented a workflow for students 
 > **Warning** The exercises are not to be graded. The LDSSA expects their students to push their code to their GitHub repo to be graded on their Portal.
 >
 > This is a limitation on our side, so please ignore grading instructions, which involve pushing code to their repo and logging in to their Portal.
+
+Some of the academy's presentations may not be available to the public. So we collected them all and added to the `resources` folder. Be sure to check them out as you go through the learning units!
 
 ## Expectations
 
