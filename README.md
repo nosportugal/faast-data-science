@@ -1,6 +1,8 @@
-# Data Science Learning Path
+# FAAST Advance Data Science
 
-Welcome to the Data Science Learning Path 🎉
+![FAAST logo](/images/FAAST_preto.png)
+
+Welcome to the FAAST Advance Data Science 🎉
 
 This course is designed to cover most of the data science concepts you'll need to get started with.
 
