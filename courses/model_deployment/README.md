@@ -1,5 +1,4 @@
-# FAAST Advance Intro to Text Classification
-
+# FAAST Advance Model Deployment
 ![FAAST logo](/images/FAAST_preto.png)
 
 Welcome to the Git repository for the FAAST Advance Model Deployment path 🎉
