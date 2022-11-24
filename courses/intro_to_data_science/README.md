@@ -41,7 +41,7 @@ The learning units available in the Lisbon Data Science Academy curriculum that 
 - Data Wrangling and Manipulation with Pandas
   - [SLU01 - Pandas 101](https://github.com/LDSSA/batch5-students/tree/main/S01%20-%20Bootcamp%20and%20Binary%20Classification/SLU01%20-%20Pandas%20101)
   - [SLU02 - Sub-setting Data in Pandas](https://github.com/LDSSA/batch5-students/tree/main/S01%20-%20Bootcamp%20and%20Binary%20Classification/SLU02%20-%20Subsetting%20Data%20in%20Pandas)
-  - [SLU03 - Visualization with Pandas & Matplotlib](https://github.com/LDSSA/batch5-students/tree/main/S01%20-%20Bootcamp%20and%20Binary%20Classification/SLU02%20-%20Subsetting%20Data%20in%20Pandas)
+  - [SLU03 - Visualization with Pandas & Matplotlib](https://github.com/LDSSA/batch5-students/tree/main/S01%20-%20Bootcamp%20and%20Binary%20Classification/SLU03%20-%20Visualization%20with%20Pandas%20%26%20Matplotlib)
   - [SLU04 - Basic Stats with Pandas](https://github.com/LDSSA/batch5-students/tree/main/S01%20-%20Bootcamp%20and%20Binary%20Classification/SLU04%20-%20Basic%20Stats%20with%20Pandas)
   - [SLU05 - Covariance and Correlation](https://github.com/LDSSA/batch5-students/tree/main/S01%20-%20Bootcamp%20and%20Binary%20Classification/SLU05%20-%20Covariance%20and%20Correlation)
   - [SLU06 - Dealing with Data Problems](https://github.com/LDSSA/batch5-students/tree/main/S01%20-%20Bootcamp%20and%20Binary%20Classification/SLU06%20-%20Dealing%20with%20Data%20Problems)
