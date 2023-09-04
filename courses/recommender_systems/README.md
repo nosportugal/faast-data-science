@@ -4,7 +4,7 @@
 
 Welcome to the Git repository for the FAAST Advance Intro to Recommender Systems learning path 🎉
 
-This course is designed to help you create Recommender Systems models using Python. It covers regular expressions, the `NLTK` library, and it will teach you how extract information from text without falling pray to the "curse of dimensionality".
+This course is designed to help you create Recommender Systems models using Python. It covers non-personalized algorithms (people that buy X also buy Y), personalized algorithms like Collaborative Filtering, and how to evaluate such systems.
 
 The course is extracted from the Lisbon Data Science Academy. You can access it [here](https://github.com/LDSSA/batch5-students/tree/main/S05%20-%20Recommender%20Systems).
 
