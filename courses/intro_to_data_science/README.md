@@ -1,8 +1,8 @@
-# FAAST Advance Intro to Data Science
+# FAAST Advance Data Science - Intro to Data Science
 
 ![FAAST logo](/images/FAAST_preto.png)
 
-Welcome to the Git repository for the FAAST Advance Intro to Data Science learning path 🎉
+Welcome to the Git repository for the "FAAST Advance Data Science - Intro to Data Science" learning path 🎉
 
 This course is designed to cover the data science concepts you'll need to start with your data science journey.
 
