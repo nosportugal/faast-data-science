@@ -1,8 +1,8 @@
-# FAAST Advance Intro to Recommender Systems
+# FAAST Advance Data Science - Intro to Recommender Systems
 
 ![FAAST logo](/images/FAAST_preto.png)
 
-Welcome to the Git repository for the FAAST Advance Intro to Recommender Systems learning path 🎉
+Welcome to the Git repository for the "FAAST Advance Data Science - Intro to Recommender Systems" learning path 🎉
 
 This course is designed to help you create Recommender Systems models using Python. It covers non-personalized algorithms (people that buy X also buy Y), personalized algorithms like Collaborative Filtering, and how to evaluate such systems.
 
