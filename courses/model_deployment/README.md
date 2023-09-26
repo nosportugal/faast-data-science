@@ -1,7 +1,8 @@
-# FAAST Advance Model Deployment
+# FAAST Advance Data Science - Model Deployment
+
 ![FAAST logo](/images/FAAST_preto.png)
 
-Welcome to the Git repository for the FAAST Advance Model Deployment path 🎉
+Welcome to the Git repository for the "FAAST Advance Data Science - Model Deployment" path 🎉
 
 This course is designed help you deploy your models to production. We will cover the following topics:
 
