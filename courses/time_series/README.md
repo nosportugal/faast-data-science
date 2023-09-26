@@ -1,8 +1,8 @@
-# FAAST Advance Intro to Time Series
+# FAAST Advance Data Science - Intro to Time Series
 
 ![FAAST logo](/images/FAAST_preto.png)
 
-Welcome to the Git repository for the FAAST Advance Intro to Time Series learning path 🎉
+Welcome to the Git repository for the "FAAST Advance Data Science - Intro to Time Series" learning path 🎉
 
 This course is designed to cover the data science concepts you'll need to start creating models for time series data. We'll cover the basics of time series data, how to work with it in Python, classic approaches for forecasting and how to use cross-validation to evaluate your models.
 
