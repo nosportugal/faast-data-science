@@ -1,8 +1,8 @@
-# FAAST Advance Intro to Text Classification
+# FAAST Advance Data Science - Intro to Text Classification
 
 ![FAAST logo](/images/FAAST_preto.png)
 
-Welcome to the Git repository for the FAAST Advance Intro to Text Classification learning path 🎉
+Welcome to the Git repository for the "FAAST Advance Data Science - Intro to Text Classification" learning path 🎉
 
 This course is designed to help you create text classification models using Python. It covers regular expressions, the `NLTK` library, and it will teach you how extract information from text without falling pray to the "curse of dimensionality".
 
