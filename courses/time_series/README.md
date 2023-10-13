@@ -31,7 +31,7 @@ To fulfill these expectations, we adopted the following principles:
 
 The learning units available in the Lisbon Data Science Academy curriculum that will be covered by this module are as follows:
 
-- [Time Series Concepts](https://github.com/LDSSA/batch5-students/tree/main/S03%20-%20Time%20Series/BLU04%20-%20Time%20Series%20Concepts)
+- [Time Series Concepts](./BLU04%20-%20Time%20Series%20Concepts/README.md)
 - [Classical Time Series Models](https://github.com/LDSSA/batch5-students/tree/main/S03%20-%20Time%20Series/BLU05%20-%20Classical%20Time%20Series%20Models)
 - [Machine Learning for Time Series](https://github.com/LDSSA/batch5-students/tree/main/S03%20-%20Time%20Series/BLU06%20-%20Machine%20Learning%20for%20Time%20Series)
   
