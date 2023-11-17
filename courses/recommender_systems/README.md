@@ -33,7 +33,7 @@ The learning units available in the Lisbon Data Science Academy curriculum that 
 
 - [Non-personalized recommender systems](./BLU10%20-%20Non-personalised%20recommender%20systems/README.md)
 - [Personalized Recommenders](./BLU11%20-%20Personalized%20Recommenders/README.md)
-- [Recommender Systems Workflow](https://github.com/LDSSA/batch5-students/tree/main/S05%20-%20Recommender%20Systems/BLU12%20-%20Workflow)
+- [Recommender Systems Workflow](./BLU12%20-%20Workflow/README.md)
   
 > **Note**: You'll find some folders with the `HCKTxx` prefix. These are the folders used on Hackathons at the Lisbon Data Science Academy.
 
