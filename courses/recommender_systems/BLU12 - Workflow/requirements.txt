@@ -1,5 +1,5 @@
-ipython==8.4.0
-notebook==6.4.0
+ipython==8.10.0
+notebook==6.4.12
 jupyter-client==6.1.12
 nbgrader==0.7.0
 
