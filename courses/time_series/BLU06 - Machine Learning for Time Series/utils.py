@@ -1,12 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# from lightgbm import LGBMRegressor
-from sklearn.metrics import mean_absolute_error
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.linear_model import LinearRegression
-from tqdm import tqdm_notebook as tqdm
-
 
 def get_stores_data():
     stores = pd.read_csv("data/stores.csv")
@@ -43,8 +37,11 @@ def get_store_data():
 
 def build_exog_features(df_, leads):
     """
-    takes a df with the exogenous data and creates lagged features so that the dataset is compatible with the ML formulation.
-    use this as described in the google doc. If you mess with this function be careful.
+    Takes a df with the exogenous data and creates lagged features so that the
+    dataset is compatible with the ML formulation.
+    
+    Use this as described in the google doc. If you mess with this function be
+    careful.
     """
 
     for i in np.arange(1, leads + 1):
@@ -109,7 +106,6 @@ def prepare_for_prediction(
 ):
     """
     Wrapper to go from the original series to X_train, y_train, X_last_period
-
     """
 
     # build the target
@@ -226,8 +222,9 @@ def build_some_features(
         # make a new feature, with the lags in the observed values column
         df_[f"diff_{i}"] = df_[target].diff(i)
 
-    for stat in rolling:
-        df_[f"rolling_{stat}"] = df_[target].rolling("7D").aggregate(stat)
+    if rolling:
+        for stat in rolling:
+            df_[f"rolling_{stat}"] = df_[target].rolling("7D").aggregate(stat)
 
     if weekday:
         df_["sin_weekday"] = np.sin(2 * np.pi * df_.index.weekday / 7)
