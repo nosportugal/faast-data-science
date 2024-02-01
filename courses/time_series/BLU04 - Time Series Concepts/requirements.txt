@@ -3,7 +3,7 @@ nbgrader==0.6.2
 numpy==1.22.0
 pandas==1.2.4
 matplotlib==3.4.2
-scikit_learn==0.24.2
+scikit_learn==1.0.1
 statsmodels==0.12.2
 tqdm==4.61.1
 jupyter-client==6.1.12
