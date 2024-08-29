@@ -1,8 +1,10 @@
-# LDSA Deep Learning Course
+# FAAST Advance Data Science - Deep Learning
 
-Welcome to the LDSA Deep Learning Course!
+![FAAST logo](/images/FAAST_preto.png)
 
-This course offers a pragmatic introduction to Deep Learning, beginning with the fundamentals while also embracing state-of-the-art concepts. It was developed in 2023 by [@jdpsc](https://github.com/jdpsc), [@fabiocruz](https://github.com/fabiocruz), and [@TSFelg](https://github.com/TSFelg) as a guided cohort for [@nosportugal](https://github.com/nosportugal) with special accompaniment from [@nfpaiva](https://github.com/nfpaiva). NOS has since donated the course to the LDSA and the open source community.
+Welcome to the Git repository for the "FAAST Advance Data Science - Deep Learning" learning path 🎉
+
+This course offers a pragmatic introduction to Deep Learning, beginning with the fundamentals while also embracing state-of-the-art concepts. It was developed in 2023 by [@jdpsc](https://github.com/jdpsc), [@fabiocruz](https://github.com/fabiocruz), and [@TSFelg](https://github.com/TSFelg) as a guided cohort for [@nosportugal](https://github.com/nosportugal) with special accompaniment from [@nfpaiva](https://github.com/nfpaiva). NOS has since donated the course to the [Lisbon Data Science Academy](https://www.lisbondatascience.org/) and the open source community.
 
 ## Methodology
 
