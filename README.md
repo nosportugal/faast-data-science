@@ -11,6 +11,7 @@ The repository contains the resources for the following courses:
 - [Introduction to Text Classification](/courses/text_classification/)
 - [Introduction to Recommender Systems](/courses/recommender_systems/)
 - [Model deployment](/courses/model_deployment/)
+- [Deep Learning](/courses/deep_learning/)
 
 ## Pre-requisites
 
