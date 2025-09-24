@@ -37,6 +37,10 @@ The learning units available in the Lisbon Data Science Academy curriculum that 
   
 > **Note**: You'll find some folders with the `HCKTxx` prefix. These are the folders used on Hackathons at the Lisbon Data Science Academy.
 
+The units above are stored inside a **Essentials** folder.
+
+Besides this, you'll find a **Advanced** folder, which contains more in-depth materials. Particularly, it includes topics like embeddings in the context of Recommender Systems and Graph Neural Networks (GNNs) applied to recommendation tasks.
+
 ## Learning Structure
 
 ### Progress and Questions Tracking

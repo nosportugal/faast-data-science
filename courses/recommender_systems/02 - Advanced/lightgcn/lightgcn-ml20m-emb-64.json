@@ -1,0 +1,9 @@
+{
+  "num_users": 138287,
+  "num_items": 20720,
+  "embed_dim": 64,
+  "layers": 3,
+  "alpha_mode": "mean",
+  "edge_dropout": 0.0,
+  "out_file": "./lightgcn-ml20m-emb-64.pt"
+}
