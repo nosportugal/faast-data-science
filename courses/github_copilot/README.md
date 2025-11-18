@@ -15,7 +15,7 @@ In this course, you'll learn:
 - Prompt engineering techniques to get better results from Copilot
 - Advanced features for code generation, refactoring, and testing
 - How to develop unit tests using Copilot tools
-- (Optional) How to use Model Context Protocol (MCP) to enhance Copilot capabilities with external context sources
+- Optional, but ***encouraged***: How to use Model Context Protocol (MCP) to enhance Copilot capabilities with external context sources
 
 ## Learning Principles
 
@@ -29,7 +29,7 @@ This course follows the same principles established in the FAAST Advance Data Sc
 
 ## Learning Units
 
-The course is structured in three main phases:
+The course is structured in three main phases (modules):
 
 ### Setup & Introduction (~2-3 hours)
 - **Setup Guide** (50-85 min): Installation and configuration of GitHub Copilot
@@ -43,10 +43,11 @@ The course is structured in three main phases:
 - **[Introduction to prompt engineering with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/introduction-prompt-engineering-with-github-copilot/)** (~45 min): Master the art of crafting effective prompts to get the best results from Copilot
 
 ### Module 2: Advanced GitHub Copilot (~2-3 hours)
-- **[Using advanced GitHub Copilot features](https://learn.microsoft.com/en-us/training/modules/using-advanced-github-copilot-features/)** (~1 hour): Explore advanced capabilities for code generation, refactoring, and documentation
+- **[Using advanced GitHub Copilot features](https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/)** (~1 hour): Explore advanced capabilities for code generation, refactoring, and documentation
 - **[Develop unit tests using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/develop-unit-tests-using-github-copilot-tools/)** (~1.5 hours): Learn to create comprehensive test suites with AI assistance
+  - **Except** the "Exercise - Develop unit tests using GitHub Copilot" and "Module assessment" section, which should be skipped, as it requires a C# installation.
 
-### Optional Module: Model Context Protocol (MCP) Exploration (~2 hours)
+### Module 3: Model Context Protocol (MCP) Exploration (~2 hours, advanced)
 
 GitHub Copilot supports the Model Context Protocol (MCP), which allows you to extend Copilot's capabilities by providing additional context from external sources like databases, APIs, file systems, or GitHub repositories.
 
@@ -54,7 +55,7 @@ GitHub Copilot supports the Model Context Protocol (MCP), which allows you to ex
 
 MCP is an open protocol that enables AI assistants like GitHub Copilot to securely access contextual information from various sources. This helps Copilot provide more accurate and relevant suggestions based on your specific project context.
 
-**GitHub MCP Server - A Powerful Use Case**
+**GitHub MCP Server – key use cases**
 
 The GitHub MCP Server is particularly useful for project management and development workflows. With it, you can:
 
