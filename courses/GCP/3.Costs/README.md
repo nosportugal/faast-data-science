@@ -1,63 +1,102 @@
-# 3. Costs and infrastructure
-## 1. Analyze billing data and cost trends with Reports
-Introdução: Este vídeo explora como usar relatórios de faturamento no Google Cloud para analisar custos e identificar tendências.
-Takeaways:
+## Module 3: Managing Costs, Security & Infrastructure 🏗️
 
-Como acessar relatórios detalhados de custos no Google Cloud.
-Identificação de serviços que geram maior custo.
-Comparação de custos diários e otimização de gastos.
+### Building Robust and Responsible Solutions
 
-## 2. Exam Professional Data Engineer topic
-Introdução: Um vídeo focado em tópicos do exame de engenheiro de dados profissional, com dicas e explicações.
-Takeaways:
+Now that you're familiar with GCP's core data and infrastructure services, it's time to learn how to manage them responsibly and efficiently. Building powerful solutions is only half the battle; ensuring they are secure, cost-effective, and reproducible is what separates a good data scientist from a great one in a cloud environment.
 
-Melhores práticas para exportar dados de faturamento para o BigQuery.
-Dicas para se preparar para o exame de certificação.
+This module focuses on the operational aspects of working with GCP. You will learn how to monitor your spending, secure your projects with Identity and Access Management (IAM), automate your infrastructure with Terraform, and ensure your data is protected with encryption. These are essential skills for building professional-grade, production-ready systems.
 
-## 3. What is Cloud IAM?
-Introdução: Explica o gerenciamento de identidade e acesso (IAM) no Google Cloud.
-Takeaways:
+### Learning Objectives
 
-Diferença entre permissões básicas e herdadas.
-Como configurar papéis e contas de serviço para segurança.
-Melhores práticas para organizar permissões em projetos.
+By the end of this module, you will be able to:
 
-## 4. Terraform explained in 15 mins
-Introdução: Um tutorial introdutório sobre Terraform e sua aplicação em infraestrutura como código.
-Takeaways:
+-   **Analyze** cloud spending using GCP's billing reports and export billing data for deeper analysis.
+-   **Implement** the principle of least privilege by configuring roles and permissions with Cloud IAM.
+-   **Automate** the creation and management of cloud resources using Terraform (Infrastructure as Code).
+-   **Understand** the fundamentals of container orchestration with Kubernetes.
+-   **Secure** your data at rest by creating and managing encryption keys with Cloud KMS.
+-   **Monitor** and debug your applications effectively using Cloud Logging.
 
-O que é Terraform e como funciona.
-Diferença entre Terraform e outras ferramentas como Ansible.
-Comandos básicos e arquitetura do Terraform.
+---
 
-## 5. Kubernetes Explained in 15 Minutes
-Introdução: Uma visão geral prática sobre Kubernetes e sua funcionalidade.
-Takeaways:
+### Learning Resources
 
-Explicação de containerização e orquestração.
-Demonstração prática de configuração básica no Kubernetes.
-Recursos recomendados para aprofundar o aprendizado.
+#### 1. Analyze Billing Data and Cost Trends with Reports
 
-## 6. Astro vs Apache Airflow OSS
-Introdução: Comparação entre Astro e Apache Airflow OSS para orquestração de dados.
-Takeaways:
+This video explores how to use billing reports in Google Cloud to analyze costs and identify spending trends.
 
-Diferenças de funcionalidade e arquitetura entre Astro e Airflow.
-Benefícios do Astro para simplificar operações de pipeline de dados.
-Recursos adicionais para explorar o Astro.
+-   **[Source: Video 1](https://www.youtube.com/watch?v=XR_d8u5AGyM)**
+-   **[Source: Video 2](https://www.youtube.com/watch?v=jRb8piwa2GI)**
+-   **[Source: Video 3](https://www.youtube.com/watch?v=ZyMO9XabUUM)**
 
-## 7. Encryption with Cloud KMS Keys
-Introdução: Demonstra como usar o Cloud Key Management Service (KMS) para gerenciar chaves de criptografia.
-Takeaways:
+**Key Takeaways:**
+*   How to access detailed cost reports in Google Cloud.
+*   Identifying services that generate the highest costs.
+*   Comparing daily costs and optimizing spending.
+*   Best practices for exporting billing data to BigQuery for advanced analysis.
 
-Criação de chaves de criptografia no Google Cloud.
-Benefícios do uso de KMS para segurança de dados.
-Demonstração prática de configuração de chaves.
+#### 2. What is Cloud IAM?
 
-## 8. Cloud logging
-Introdução: Explica como usar o Cloud Logging para monitorar e gerenciar logs no Google Cloud.
-Takeaways:
+This video explains Identity and Access Management (IAM) in Google Cloud, the cornerstone of securing your resources.
 
-Como configurar consultas básicas e avançadas de logs.
-Uso do Logs Router para gerenciar e formatar logs.
-Melhores práticas para monitoramento de erros.
+-   **[Source: YouTube](http://youtube.com/watch?v=xQClVtAECdg)**
+
+**Key Takeaways:**
+*   The difference between basic and predefined roles.
+*   How to configure roles and service accounts for fine-grained security.
+*   Best practices for organizing permissions in projects.
+
+#### 3. Terraform Explained in 15 Mins
+
+An introductory tutorial on Terraform and its application as infrastructure as code, allowing you to define and provision infrastructure declaratively.
+
+-   **[Source: YouTube](https://www.youtube.com/watch?v=l5k1ai_GBDE)**
+
+**Key Takeaways:**
+*   What Terraform is and how it works.
+*   The difference between Terraform and other tools like Ansible.
+*   Basic commands and architecture of Terraform.
+
+#### 4. Kubernetes Explained in 15 Minutes
+
+A practical overview of Kubernetes, the industry-standard system for automating the deployment, scaling, and management of containerized applications.
+
+-   **[Source: YouTube](https://www.youtube.com/watch?v=r2zuL9MW6wc)**
+
+**Key Takeaways:**
+*   An explanation of containerization and orchestration.
+*   A practical demonstration of a basic configuration in Kubernetes.
+*   Recommended resources for deeper learning.
+
+#### 5. Astro vs. Apache Airflow OSS
+
+A comparison between Astro (a managed Airflow service) and open-source Apache Airflow for data orchestration, highlighting key differences.
+
+-   **[Source: YouTube](https://www.astronomer.io/astro-vs-apache-airflow-oss/)**
+
+**Key Takeaways:**
+*   Differences in functionality and architecture between Astro and Airflow.
+*   Benefits of Astro for simplifying data pipeline operations.
+*   Additional resources for exploring Astro.
+
+#### 6. Encryption with Cloud KMS Keys
+
+This video demonstrates how to use the Cloud Key Management Service (KMS) to manage your own cryptographic keys for encrypting data in GCP.
+
+-   **[Source: YouTube](https://www.youtube.com/watch?v=WKZC93y-aWI)**
+
+**Key Takeaways:**
+*   How to create encryption keys in Google Cloud.
+*   The benefits of using customer-managed encryption keys for data security.
+*   A practical demonstration of key configuration.
+
+#### 7. Cloud Logging
+
+Explains how to use Cloud Logging to monitor, troubleshoot, and manage logs from all your applications and services running on Google Cloud.
+
+-   **[Source: YouTube](https://www.youtube.com/watch?v=gyDp-Cl_MdA)**
+
+**Key Takeaways:**
+*   How to configure basic and advanced log queries.
+*   Using the Logs Router to sink logs to different destinations.
+*   Best practices for monitoring and alerting on errors.
