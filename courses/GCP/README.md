@@ -29,7 +29,7 @@ This course is structured as a self-paced learning path composed of 4 core modul
 
 Here is the breakdown of the topics covered in each module:
 
-#### 1. Cloud Databases & Storage: The Foundation of Data
+#### 1. Cloud Databases & Storage: The Foundation of Data ~ 3 hours
 
 This module covers the essential storage and database services in GCP. You'll learn to differentiate between data types and select the optimal service for your needs, from unstructured data in Cloud Storage to massive analytical datasets in BigQuery.
 
@@ -42,7 +42,7 @@ This module covers the essential storage and database services in GCP. You'll le
 -   **Google BigQuery vs. SQL Server**
 -   **Introduction to Dataplex for Data Governance**
 
-#### 2. Infrastructure & Core Services
+#### 2. Infrastructure & Core Services ~ 2 hours
 
 Learn about the core compute, orchestration, and messaging services that power applications on GCP. This module provides the foundational knowledge needed to build scalable and reliable data pipelines.
 
@@ -54,7 +54,7 @@ Learn about the core compute, orchestration, and messaging services that power a
 -   **Apigee for API Management**
 -   **Cloud Pub/Sub for Asynchronous Messaging**
 
-#### 3. Managing Costs, Security & Infrastructure as Code
+#### 3. Managing Costs, Security & Infrastructure as Code ~ 2 hours
 
 A crucial part of working in the cloud is managing costs, security, and infrastructure efficiently. This module introduces you to IAM for access control, Terraform for infrastructure automation, and best practices for monitoring your GCP environment.
 
@@ -66,7 +66,7 @@ A crucial part of working in the cloud is managing costs, security, and infrastr
 -   **Encryption with Cloud KMS Keys**
 -   **Cloud Logging for Monitoring and Debugging**
 
-#### 4. Data Science & MLOps in GCP
+#### 4. Data Science & MLOps in GCP ~ 1 hour
 
 This is where we bring everything together. This module focuses on Google Cloud's premier machine learning services, showing you how to build, train, and deploy models directly within the GCP ecosystem.
 
