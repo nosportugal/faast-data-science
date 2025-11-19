@@ -25,7 +25,7 @@ By the end of this module, you will be able to:
 
 This video explores various types of databases, such as relational, columnar, document, and graph, highlighting their core features and ideal use cases.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=VfcRxtBKI54)**
+**[![Source: YouTube](https://img.youtube.com/vi/VfcRxtBKI54/0.jpg)](https://www.youtube.com/watch?v=VfcRxtBKI54)**
 
 **Key Takeaways:**
 *   Differences between database types.
