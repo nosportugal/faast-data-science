@@ -26,7 +26,7 @@ By the end of this module, you will be able to:
 
 This video explains the various types and families of virtual machines (VMs) in Google Compute Engine (GCE) and provides guidelines for selecting the right one for your workloads.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=_5tqGhu7V-4)**
+**[![Source: YouTube](https://img.youtube.com/vi/_5tqGhu7V-4/0.jpg)](https://www.youtube.com/watch?v=_5tqGhu7V-4)**
 
 **Key Takeaways:**
 *   Understand the different VM types and families in GCP.
@@ -37,7 +37,7 @@ This video explains the various types and families of virtual machines (VMs) in 
 
 A quick overview of Google Cloud Dataflow, a fully managed streaming analytics service that minimizes latency and processing time for large-scale data tasks.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=XdsuDOQ9nkU)**
+**[![Source: YouTube](https://img.youtube.com/vi/XdsuDOQ9nkU/0.jpg)](https://www.youtube.com/watch?v=XdsuDOQ9nkU)**
 
 **Key Takeaways:**
 *   Dataflow supports both batch and streaming data processing.
@@ -48,7 +48,7 @@ A quick overview of Google Cloud Dataflow, a fully managed streaming analytics s
 
 This video demonstrates how Cloud Composer, a managed Apache Airflow service, can be used to create, schedule, and monitor complex data workflows in Google Cloud.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=3UfYwR3Uwgw)**
+**[![Source: YouTube](https://img.youtube.com/vi/3UfYwR3Uwgw/0.jpg)](https://www.youtube.com/watch?v=3UfYwR3Uwgw)**
 
 **Key Takeaways:**
 *   Cloud Composer simplifies data orchestration and workflow management.
@@ -57,15 +57,22 @@ This video demonstrates how Cloud Composer, a managed Apache Airflow service, ca
 
 #### 4. Intro to Dataproc
 
--   **[Source: Video 1](https://www.youtube.com/watch?v=lHYHXzFCF10)**
--   **[Source: Video 2](https://www.youtube.com/watch?v=HEQvXxTBuH4)**
+Learn about Dataproc and how you can leverage it to build your datapipelines.
 
+**[![Source: YouTube 1](https://img.youtube.com/vi/lHYHXzFCF10/0.jpg)](https://www.youtube.com/watch?v=lHYHXzFCF10)**
+
+**[![Source: YouTube 2](https://img.youtube.com/vi/HEQvXxTBuH4/0.jpg)](https://www.youtube.com/watch?v=HEQvXxTBuH4)**
+
+**Key Takeaways:**
+*   Understand the features of Cloud Dataproc as a managed service for running Spark and Hadoop clusters.
+*   Learn how to quickly provision clusters and migrate existing Spark/Hadoop workloads.
+*   Explore integrations with other GCP services and the key differences between Dataproc and Dataflow.
 
 #### 5. Intro to Artifact Registry
 
 Learn about Artifact Registry, the evolution of Container Registry, and its capabilities for managing container images and language packages, integrating seamlessly with CI/CD systems.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=712Y0KpeHok)**
+**[![Source: YouTube](https://img.youtube.com/vi/712Y0KpeHok/0.jpg)](https://www.youtube.com/watch?v=712Y0KpeHok)**
 
 **Key Takeaways:**
 *   Understand the features of Artifact Registry for managing artifacts.
@@ -74,20 +81,20 @@ Learn about Artifact Registry, the evolution of Container Registry, and its capa
 
 #### 6. Serverless
 
-This video explores how Looker can be used to build powerful dashboards for cloud cost management, enabling data-driven decisions to optimize spending.
+This video explores how serverless can be used to build powerful data pipelines.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=PBw9vD_BO5A)**
+**[![Source: YouTube](https://img.youtube.com/vi/PBw9vD_BO5A/0.jpg)](https://www.youtube.com/watch?v=PBw9vD_BO5A)**
 
 **Key Takeaways:**
-*   Learn how Looker helps visualize and manage cloud costs.
-*   Understand how to use Looker for data-driven decision-making.
-*   Explore examples of cost analysis and optimization.
+*   Understand the features of GCP's serverless options for running code, containers, or full applications without managing servers.
+*   Learn to differentiate between Cloud Functions, Cloud Run, and App Engine to choose the correct service for a workload.
+*   Explore event-driven triggers and patterns for integrating services using tools like Cloud Pub/Sub and Cloud Tasks.
 
 #### 7. Cloud Run in a Minute
 
 A concise overview of Cloud Run, a fully managed compute service for deploying and scaling containerized applications quickly and securely.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=AL2rAmWFZjM)**
+**[![Source: YouTube](https://img.youtube.com/vi/AL2rAmWFZjM/0.jpg)](https://www.youtube.com/watch?v=AL2rAmWFZjM)**
 
 **Key Takeaways:**
 *   Cloud Run simplifies running containerized workloads.
@@ -98,7 +105,7 @@ A concise overview of Cloud Run, a fully managed compute service for deploying a
 
 Discover how Apigee, Google Cloud's API management platform, helps organizations design, secure, deploy, and monitor APIs effectively.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=vGe38icp0n4)**
+**[![Source: YouTube](https://img.youtube.com/vi/vGe38icp0n4/0.jpg)](https://www.youtube.com/watch?v=vGe38icp0n4)**
 
 **Key Takeaways:**
 *   Learn the benefits of Apigee for API management.
@@ -109,7 +116,7 @@ Discover how Apigee, Google Cloud's API management platform, helps organizations
 
 A brief explanation of Cloud Pub/Sub, an asynchronous, scalable messaging service designed to decouple services that produce and consume events.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=jLI-84UjZLE)**
+**[![Source: YouTube](https://img.youtube.com/vi/jLI-84UjZLE/0.jpg)](https://www.youtube.com/watch?v=jLI-84UjZLE)**
 
 **Key Takeaways:**
 *   Understand the concept of Pub/Sub and its primary use cases.
@@ -118,11 +125,12 @@ A brief explanation of Cloud Pub/Sub, an asynchronous, scalable messaging servic
 
 #### 10. Networking in a Minute
 
-This interactive learning module provides a hands-on introduction to the basics of BigQuery, Google Cloud's premier data warehouse solution.
+Discover how Virtual Private Cloud (VPC) provides the networking foundation for your resources, enabling you to connect them globally and secure them with firewall rules.
 
--   **[Source: Google Cloud Skills Boost](https://www.cloudskillsboost.google/focuses/1229?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=42028897)**
+**[![Source: Video](https://docs.cloud.google.com/static/vpc-service-controls/images/service_perimeter_private.png)](https://www.cloudskillsboost.google/focuses/1229?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=42028897)**
 
 **Key Takeaways:**
-*   Learn how to query and analyze large datasets using the BigQuery UI.
-*   Understand the key features of BigQuery, including its scalability and speed.
-*   Gain hands-on experience with querying and managing data.
+*   Explore the default VPC network
+*   Create an auto mode network with firewall rules
+*   Create VM instances using Compute Engine
+*   Explore the connectivity for VM instances
