@@ -25,9 +25,11 @@ By the end of this module, you will be able to:
 
 This video explores how to use billing reports in Google Cloud to analyze costs and identify spending trends.
 
--   **[Source: Video 1](https://www.youtube.com/watch?v=XR_d8u5AGyM)**
--   **[Source: Video 2](https://www.youtube.com/watch?v=jRb8piwa2GI)**
--   **[Source: Video 3](https://www.youtube.com/watch?v=ZyMO9XabUUM)**
+**[![Source: YouTube 1](https://img.youtube.com/vi/XR_d8u5AGyM/0.jpg)](https://www.youtube.com/watch?v=XR_d8u5AGyM)**
+
+**[![Source: YouTube 2](https://img.youtube.com/vi/jRb8piwa2GI/0.jpg)](https://www.youtube.com/watch?v=jRb8piwa2GI)**
+
+**[![Source: YouTube 3](https://img.youtube.com/vi/ZyMO9XabUUM/0.jpg)](https://www.youtube.com/watch?v=ZyMO9XabUUM)**
 
 **Key Takeaways:**
 *   How to access detailed cost reports in Google Cloud.
@@ -39,7 +41,7 @@ This video explores how to use billing reports in Google Cloud to analyze costs 
 
 This video explains Identity and Access Management (IAM) in Google Cloud, the cornerstone of securing your resources.
 
--   **[Source: YouTube](http://youtube.com/watch?v=xQClVtAECdg)**
+**[![Source: YouTube](https://img.youtube.com/vi/xQClVtAECdg/0.jpg)](http://youtube.com/watch?v=xQClVtAECdg)**
 
 **Key Takeaways:**
 *   The difference between basic and predefined roles.
@@ -50,7 +52,7 @@ This video explains Identity and Access Management (IAM) in Google Cloud, the co
 
 An introductory tutorial on Terraform and its application as infrastructure as code, allowing you to define and provision infrastructure declaratively.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=l5k1ai_GBDE)**
+**[![Source: YouTube](https://img.youtube.com/vi/l5k1ai_GBDE/0.jpg)](https://www.youtube.com/watch?v=l5k1ai_GBDE)**
 
 **Key Takeaways:**
 *   What Terraform is and how it works.
@@ -61,7 +63,7 @@ An introductory tutorial on Terraform and its application as infrastructure as c
 
 A practical overview of Kubernetes, the industry-standard system for automating the deployment, scaling, and management of containerized applications.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=r2zuL9MW6wc)**
+**[![Source: YouTube](https://img.youtube.com/vi/r2zuL9MW6wc/0.jpg)](https://www.youtube.com/watch?v=r2zuL9MW6wc)**
 
 **Key Takeaways:**
 *   An explanation of containerization and orchestration.
@@ -72,7 +74,7 @@ A practical overview of Kubernetes, the industry-standard system for automating 
 
 A comparison between Astro (a managed Airflow service) and open-source Apache Airflow for data orchestration, highlighting key differences.
 
--   **[Source: YouTube](https://www.astronomer.io/astro-vs-apache-airflow-oss/)**
+**[![Source: Article](https://www.astronomer.io/images/vs-oss/astro-airflow-logos.svg?_cchid=5f1b974eadca9cef8d91d61c4ed99db2)](https://www.astronomer.io/astro-vs-apache-airflow-oss/)**
 
 **Key Takeaways:**
 *   Differences in functionality and architecture between Astro and Airflow.
@@ -83,7 +85,7 @@ A comparison between Astro (a managed Airflow service) and open-source Apache Ai
 
 This video demonstrates how to use the Cloud Key Management Service (KMS) to manage your own cryptographic keys for encrypting data in GCP.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=WKZC93y-aWI)**
+**[![Source: YouTube](https://img.youtube.com/vi/WKZC93y-aWI/0.jpg)](https://www.youtube.com/watch?v=WKZC93y-aWI)**
 
 **Key Takeaways:**
 *   How to create encryption keys in Google Cloud.
@@ -94,7 +96,7 @@ This video demonstrates how to use the Cloud Key Management Service (KMS) to man
 
 Explains how to use Cloud Logging to monitor, troubleshoot, and manage logs from all your applications and services running on Google Cloud.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=gyDp-Cl_MdA)**
+**[![Source: YouTube](https://img.youtube.com/vi/gyDp-Cl_MdA/0.jpg)](https://www.youtube.com/watch?v=gyDp-Cl_MdA)**
 
 **Key Takeaways:**
 *   How to configure basic and advanced log queries.
