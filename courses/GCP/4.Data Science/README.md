@@ -24,7 +24,7 @@ By the end of this module, you will be able to:
 
 This document explains how BigQuery ML enables you to create and execute machine learning models directly in BigQuery using simple GoogleSQL queries.
 
--   **[Source: Introduction to ML in BigQuery](https://cloud.google.com/bigquery/docs/bqml-introduction)**
+**[![Source: Article](https://docs.cloud.google.com/static/bigquery/images/ml-model-cheatsheet.svg)](https://cloud.google.com/bigquery/docs/bqml-introduction)**
 
 **Key Takeaways:**
 *   BigQuery ML simplifies the process of building ML models without the need to move data.
@@ -35,7 +35,7 @@ This document explains how BigQuery ML enables you to create and execute machine
 
 This video introduces Vertex AI, Google Cloud’s unified machine learning platform that streamlines the development and deployment of ML projects in a single environment.
 
--   **[Source: What is Vertex AI?](https://www.youtube.com/watch?v=gT4qqHMiEpA)**
+**[![Source: YouTube](https://img.youtube.com/vi/gT4qqHMiEpA/0.jpg)](https://www.youtube.com/watch?v=gT4qqHMiEpA)**
 
 **Key Takeaways:**
 *   Vertex AI provides tools for the entire ML lifecycle, from data management to predictions.
@@ -46,7 +46,7 @@ This video introduces Vertex AI, Google Cloud’s unified machine learning platf
 
 This video explores how to get started with Google Cloud’s machine learning APIs, including powerful pre-trained APIs for tasks like NLP, computer vision, and more.
 
--   **[Source: How to get started with ML APIs](https://www.youtube.com/watch?v=pM1M4Y4QZ6k)**
+**[![Source: YouTube](https://img.youtube.com/vi/pM1M4Y4QZ6k/0.jpg)](https://www.youtube.com/watch?v=pM1M4Y4QZ6k)**
 
 **Key Takeaways:**
 *   ML APIs allow you to use pre-trained models for specific tasks with simple API calls.
@@ -57,7 +57,7 @@ This video explores how to get started with Google Cloud’s machine learning AP
 
 This short video introduces Looker Studio, a self-service analytics and data visualization tool that makes it easy to explore data and create insightful reports.
 
--   **[Source: Looker Studio in a minute](https://www.youtube.com/watch?v=ZBoFvaWr-Dk)**
+**[![Source: YouTube](https://img.youtube.com/vi/ZBoFvaWr-Dk/0.jpg)](https://www.youtube.com/watch?v=ZBoFvaWr-Dk)**
 
 **Key Takeaways:**
 *   Looker Studio simplifies the creation of interactive dashboards and reports.
