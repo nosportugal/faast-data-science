@@ -36,30 +36,30 @@ This video explores various types of databases, such as relational, columnar, do
 
 Learn to differentiate between types of data and discover which Google Cloud products are best suited for storing and managing each of them.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=bcvt22A_G9Y)**
+**[![Source: YouTube](https://img.youtube.com/vi/bcvt22A_G9Y/0.jpg)](https://www.youtube.com/watch?v=bcvt22A_G9Y)**
 
 **Key Takeaways:**
 *   Definitions of structured, semi-structured, and unstructured data.
 *   Google Cloud products for each data type.
 *   Practical examples of data storage solutions.
 
-#### 3. Structured and Unstructured Storage in the Cloud
+#### 3. Choosing the Right Database
 
 This video explains the key differences between structured and unstructured storage and provides guidance on how to choose the best cloud solution for your data.
 
--   **[Source: YouTube](https://www.youtube.com/watch?v=CIW8baJqBes)**
+**[![Source: YouTube](https://img.youtube.com/vi/CIW8baJqBes/0.jpg)](https://www.youtube.com/watch?v=CIW8baJqBes)**
 
 **Key Takeaways:**
 *   Comparison of structured vs. unstructured storage.
 *   Cloud storage solutions in Google Cloud.
-*   Tips for optimizing storage usage and costs.
 
 #### 4. Bucket Options in Cloud Storage
 
 Learn how to configure buckets in Google Cloud Storage, including critical settings like location options and storage classes, to optimize for performance, cost, and compliance.
 
--   **[Source: Video 1](https://www.youtube.com/watch?v=wNOs3LlsH6k)**
--   **[Source: Video 2](https://www.youtube.com/watch?v=8DMOJ6Lgm7s)**
+**[![Source: YouTube 1](https://img.youtube.com/vi/wNOs3LlsH6k/0.jpg)](https://www.youtube.com/watch?v=wNOs3LlsH6k)**
+
+**[![Source: YouTube 2](https://img.youtube.com/vi/8DMOJ6Lgm7s/0.jpg)](https://www.youtube.com/watch?v=8DMOJ6Lgm7s)**
 
 **Key Takeaways:**
 *   Bucket configuration options.
@@ -70,7 +70,7 @@ Learn how to configure buckets in Google Cloud Storage, including critical setti
 
 This article provides a detailed overview of the main database services offered by Google Cloud and a framework for choosing the best one for your workloads.
 
--   **[Source: Article](https://bluexp.netapp.com/blog/gcp-cvo-blg-google-cloud-database-the-right-service-for-your-workloads)**
+**[![Source: Article](https://cloud.google.com/static/architecture/images/hybrid-multicloud-patterns/architectures.svg)](https://bluexp.netapp.com/blog/gcp-cvo-blg-google-cloud-database-the-right-service-for-your-workloads)**
 
 **Key Takeaways:**
 *   Comparison of key database services in Google Cloud (e.g., Cloud SQL, Spanner, Bigtable).
@@ -78,9 +78,10 @@ This article provides a detailed overview of the main database services offered 
 *   How to optimize database selection for different scenarios (transactional, analytical).
 
 #### 6. Introduction to BigQuery
--   **[Source: Google Cloud](https://cloud.google.com/bigquery/docs/introduction#bigquery-video-tutorials)**
 
 Learn about BigQuery, Google's fully-managed, petabyte-scale analytical data warehouse, and how to use it for querying massive datasets with incredible speed.
+
+**[![Source: Google Cloud](https://img.youtube.com/vi/BH_7_zVk5oM/0.jpg)](https://cloud.google.com/bigquery/docs/introduction#bigquery-video-tutorials)**
 
 **Key Takeaways:**
 *   Setting up and using the BigQuery interface.
@@ -88,9 +89,10 @@ Learn about BigQuery, Google's fully-managed, petabyte-scale analytical data war
 *   The core benefits of BigQuery for large-scale data analysis.
 
 #### 7. Google BigQuery vs. SQL Server
--   **[Source: Article](https://hevodata.com/learn/bigquery-vs-sql-server/)**
 
 This article provides a technical comparison between Google BigQuery and a traditional data warehouse like SQL Server, highlighting their architectural differences and use cases.
+
+**[![Source: Article](https://res.cloudinary.com/hevo/images/c_scale,w_648,h_345/f_webp,q_auto:best/v1685950115/hevo-learn-1/Google-BigQuery-Vs-SQL-Server-FI/Google-BigQuery-Vs-SQL-Server-FI.png?_i=AA)](https://hevodata.com/learn/bigquery-vs-sql-server/)**
 
 **Key Takeaways:**
 *   Differences in performance, architecture, and scalability.
@@ -98,9 +100,10 @@ This article provides a technical comparison between Google BigQuery and a tradi
 *   When to choose BigQuery over SQL Server, and vice-versa.
 
 #### 8. What is Dataplex?
--   **[Source: YouTube](https://www.youtube.com/watch?v=bbFeAt7cw1g)**
 
 Discover how Dataplex can help you unify distributed data, automate data management and governance, and power analytics at scale in a secure and unified way.
+
+**[![Source: YouTube](https://img.youtube.com/vi/bbFeAt7cw1g/0.jpg)](https://www.youtube.com/watch?v=bbFeAt7cw1g)**
 
 **Key Takeaways:**
 *   Unifying metadata and enabling data discovery across lakes and warehouses.
