@@ -43,17 +43,7 @@ Learn to differentiate between types of data and discover which Google Cloud pro
 *   Google Cloud products for each data type.
 *   Practical examples of data storage solutions.
 
-#### 3. Choosing the Right Database
-
-This video explains the key differences between structured and unstructured storage and provides guidance on how to choose the best cloud solution for your data.
-
-**[![Source: YouTube](https://img.youtube.com/vi/CIW8baJqBes/0.jpg)](https://www.youtube.com/watch?v=CIW8baJqBes)**
-
-**Key Takeaways:**
-*   Comparison of structured vs. unstructured storage.
-*   Cloud storage solutions in Google Cloud.
-
-#### 4. Bucket Options in Cloud Storage
+#### 3. Bucket Options in Cloud Storage
 
 Learn how to configure buckets in Google Cloud Storage, including critical settings like location options and storage classes, to optimize for performance, cost, and compliance.
 
@@ -65,6 +55,16 @@ Learn how to configure buckets in Google Cloud Storage, including critical setti
 *   Bucket configuration options.
 *   Types of locations (Regional, Multi-regional) and storage classes (Standard, Nearline, etc.).
 *   Best practices for managing sensitive data in buckets.
+
+#### 4. Choosing the Right Database
+
+This video explains the key differences between structured and unstructured storage and provides guidance on how to choose the best cloud solution for your data.
+
+**[![Source: YouTube](https://img.youtube.com/vi/CIW8baJqBes/0.jpg)](https://www.youtube.com/watch?v=CIW8baJqBes)**
+
+**Key Takeaways:**
+*   Comparison of structured vs. unstructured storage.
+*   Cloud storage solutions in Google Cloud.
 
 #### 5. Google Cloud Database: Choosing the Right Service
 
