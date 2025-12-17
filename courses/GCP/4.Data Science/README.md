@@ -20,18 +20,7 @@ By the end of this module, you will be able to:
 
 ### Learning Resources
 
-#### 1. Introduction to BigQuery ML
-
-This document explains how BigQuery ML enables you to create and execute machine learning models directly in BigQuery using simple GoogleSQL queries.
-
-**[![Source: Article](https://docs.cloud.google.com/static/bigquery/images/ml-model-cheatsheet.svg)](https://cloud.google.com/bigquery/docs/bqml-introduction)**
-
-**Key Takeaways:**
-*   BigQuery ML simplifies the process of building ML models without the need to move data.
-*   Supports various model types, including regression, classification, and clustering.
-*   Integrates seamlessly with data visualization and analysis tools.
-
-#### 2. What is Vertex AI?
+#### 1. What is Vertex AI?
 
 This video introduces Vertex AI, Google Cloud’s unified machine learning platform that streamlines the development and deployment of ML projects in a single environment.
 
@@ -42,7 +31,7 @@ This video introduces Vertex AI, Google Cloud’s unified machine learning platf
 *   Demonstrates the Vertex AI dashboard and its core features.
 *   Designed to accelerate ML experimentation and deployment.
 
-#### 3. How to Get Started with ML APIs
+#### 2. How to Get Started with ML APIs
 
 This video explores how to get started with Google Cloud’s machine learning APIs, including powerful pre-trained APIs for tasks like NLP, computer vision, and more.
 
@@ -52,6 +41,17 @@ This video explores how to get started with Google Cloud’s machine learning AP
 *   ML APIs allow you to use pre-trained models for specific tasks with simple API calls.
 *   Examples include Vision API, Natural Language API, and Video Intelligence API.
 *   Cloud AutoML provides options to customize models for your specific needs.
+
+#### 3. Introduction to BigQuery ML
+
+This document explains how BigQuery ML enables you to create and execute machine learning models directly in BigQuery using simple GoogleSQL queries.
+
+**[![Source: Article](https://docs.cloud.google.com/static/bigquery/images/ml-model-cheatsheet.svg)](https://cloud.google.com/bigquery/docs/bqml-introduction)**
+
+**Key Takeaways:**
+*   BigQuery ML simplifies the process of building ML models without the need to move data.
+*   Supports various model types, including regression, classification, and clustering.
+*   Integrates seamlessly with data visualization and analysis tools.
 
 #### 4. Looker Studio in a Minute
 
