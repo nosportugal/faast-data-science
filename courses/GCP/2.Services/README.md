@@ -1,136 +1,220 @@
 ## Module 2: Infrastructure and Services ⚙️
 
-### Powering Your Data Workflows
+### Building Scalable Systems
 
-With a solid understanding of data storage, it's time to explore the core services that will process, manage, and serve your data. This module dives into the engine room of Google Cloud, covering everything from fundamental compute options to sophisticated tools for data orchestration and serverless computing.
+This module teaches core infrastructure concepts that apply to any cloud, then shows practical implementation with GCP. Learn to think about compute, containers, orchestration, and messaging as universal patterns.
 
-You will learn how to build scalable data pipelines with Dataflow, orchestrate complex workflows with Cloud Composer, and deploy containerized applications with Cloud Run. These services are the building blocks for creating robust, automated, and efficient data science solutions on GCP.
+**Philosophy**: Master one concept at a time. Understand the "why" before the "how". Learn patterns that work on any cloud, then apply them to GCP.
 
 ### Learning Objectives
 
 By the end of this module, you will be able to:
 
--   **Select** the appropriate Virtual Machine (VM) type for different computational needs.
--   **Understand** the use cases for both batch and streaming data processing with Dataflow.
--   **Orchestrate** complex data pipelines using Cloud Composer.
--   **Manage and deploy** containerized applications using Artifact Registry and Cloud Run.
--   **Decouple** system components effectively with the Pub/Sub messaging service.
--   **Grasp** the fundamentals of API management and cloud cost analysis.
--   **Reinforce** your practical skills in querying large datasets with BigQuery.
+-   **Understand** fundamental compute models: VMs, containers, serverless (cloud-agnostic concepts)
+-   **Design** scalable architectures using industry-standard patterns
+-   **Implement** data pipelines for batch and streaming processing
+-   **Orchestrate** workflows using Apache Airflow principles (Cloud Composer on GCP)
+-   **Deploy** containerized applications following 12-factor app principles
+-   **Architect** event-driven systems with pub/sub messaging patterns
 
 ---
 
 ### Learning Resources
 
-#### 1. What are the VM types in GCP? And how to choose between them?
+#### 1. Compute Fundamentals: VMs, Containers, Serverless
 
-This video explains the various types and families of virtual machines (VMs) in Google Compute Engine (GCE) and provides guidelines for selecting the right one for your workloads.
+**Topic**: Three compute models - understanding trade-offs
 
-**[![Source: YouTube](https://img.youtube.com/vi/_5tqGhu7V-4/0.jpg)](https://www.youtube.com/watch?v=_5tqGhu7V-4)**
+**[System Design Primer - Scalability](https://github.com/donnemartin/system-design-primer#scalability)**
 
-**Key Takeaways:**
-*   Understand the different VM types and families in GCP.
-*   Learn how to choose the appropriate VM for specific workloads.
-*   Explore the role of GCE in hosting applications and workloads.
+**Core Concepts (Cloud-Agnostic):**
+*   **Virtual Machines**: Full OS control, persistent, stateful (EC2, Compute Engine, Azure VMs)
+*   **Containers**: Portable, lightweight, consistent environments (Docker everywhere)
+*   **Serverless**: Zero infrastructure management, pay-per-use (Lambda, Cloud Functions, Azure Functions)
 
-#### 2. Dataflow in a Minute
+**Decision Framework:**
+- VMs: Legacy apps, full OS control, long-running processes
+- Containers: Microservices, consistent environments, Kubernetes orchestration
+- Serverless: Event-driven, short-lived tasks, extreme scale
 
-A quick overview of Google Cloud Dataflow, a fully managed streaming analytics service that minimizes latency and processing time for large-scale data tasks.
+**GCP Implementation:**
 
-**[![Source: YouTube](https://img.youtube.com/vi/XdsuDOQ9nkU/0.jpg)](https://www.youtube.com/watch?v=XdsuDOQ9nkU)**
-
-**Key Takeaways:**
-*   Dataflow supports both batch and streaming data processing.
-*   It offers autoscaling and cost optimization features.
-*   Ideal for real-time analytics and data transformation.
-
-#### 3. How to Use Cloud Composer for Data Orchestration
-
-This video demonstrates how Cloud Composer, a managed Apache Airflow service, can be used to create, schedule, and monitor complex data workflows in Google Cloud.
-
-**[![Source: YouTube](https://img.youtube.com/vi/3UfYwR3Uwgw/0.jpg)](https://www.youtube.com/watch?v=3UfYwR3Uwgw)**
+**[![Compute Engine Basics](https://img.youtube.com/vi/_5tqGhu7V-4/0.jpg)](https://www.youtube.com/watch?v=_5tqGhu7V-4)**
 
 **Key Takeaways:**
-*   Cloud Composer simplifies data orchestration and workflow management.
-*   Learn about its use cases and advantages for data processing.
-*   Explore an example of how Cloud Composer can be applied in real-world scenarios.
+*   Machine families: General-purpose, compute-optimized, memory-optimized
+*   Right-sizing for cost optimization
+*   Preemptible VMs for batch processing
 
-#### 4. Intro to Dataproc
+**Read**: [GCP Compute Documentation](https://cloud.google.com/compute/docs)
 
-Learn about Dataproc and how you can leverage it to build your datapipelines.
+---
 
-**[![Source: YouTube 1](https://img.youtube.com/vi/lHYHXzFCF10/0.jpg)](https://www.youtube.com/watch?v=lHYHXzFCF10)**
+#### 2. Containers and Kubernetes Fundamentals
 
-**[![Source: YouTube 2](https://img.youtube.com/vi/HEQvXxTBuH4/0.jpg)](https://www.youtube.com/watch?v=HEQvXxTBuH4)**
+**Topic**: Understanding container orchestration (one concept: managing containers at scale)
 
-**Key Takeaways:**
-*   Understand the features of Cloud Dataproc as a managed service for running Spark and Hadoop clusters.
-*   Learn how to quickly provision clusters and migrate existing Spark/Hadoop workloads.
-*   Explore integrations with other GCP services and the key differences between Dataproc and Dataflow.
+**[Kubernetes: Up & Running](https://www.oreilly.com/library/view/kubernetes-up-and/9781098110192/)** by Kelsey Hightower (Industry standard book)
 
-#### 5. Intro to Artifact Registry
+**[Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)** (GitHub) - Learn by building from scratch
 
-Learn about Artifact Registry, the evolution of Container Registry, and its capabilities for managing container images and language packages, integrating seamlessly with CI/CD systems.
+**[![Kubernetes Explained](https://img.youtube.com/vi/r2zuL9MW6wc/0.jpg)](https://www.youtube.com/watch?v=r2zuL9MW6wc)**
 
-**[![Source: YouTube](https://img.youtube.com/vi/712Y0KpeHok/0.jpg)](https://www.youtube.com/watch?v=712Y0KpeHok)**
+**Core Concepts:**
+*   Pods, Services, Deployments (universal to any Kubernetes)
+*   Declarative configuration (desired state)
+*   Self-healing and auto-scaling
+*   Works on GKE, EKS, AKS - same principles
 
-**Key Takeaways:**
-*   Understand the features of Artifact Registry for managing artifacts.
-*   Learn how to create and configure repositories.
-*   Explore identity access controls and integration with CI/CD systems.
+**GCP: Google Kubernetes Engine (GKE)**
+- Managed Kubernetes with Google SRE practices
+- Autopilot mode for hands-off operations
+- Integration with GCP services
 
-#### 6. Serverless
+**GitHub Resources:**
+- [Kubernetes Examples](https://github.com/kubernetes/examples)
+- [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
 
-This video explores how serverless can be used to build powerful data pipelines.
+---
 
-**[![Source: YouTube](https://img.youtube.com/vi/PBw9vD_BO5A/0.jpg)](https://www.youtube.com/watch?v=PBw9vD_BO5A)**
+#### 3. Serverless: Cloud Run and Cloud Functions
 
-**Key Takeaways:**
-*   Understand the features of GCP's serverless options for running code, containers, or full applications without managing servers.
-*   Learn to differentiate between Cloud Functions, Cloud Run, and App Engine to choose the correct service for a workload.
-*   Explore event-driven triggers and patterns for integrating services using tools like Cloud Pub/Sub and Cloud Tasks.
+**Topic**: Deploying containers and functions without managing infrastructure
 
-#### 7. Cloud Run in a Minute
+**[![Serverless on GCP](https://img.youtube.com/vi/PBw9vD_BO5A/0.jpg)](https://www.youtube.com/watch?v=PBw9vD_BO5A)**
 
-A concise overview of Cloud Run, a fully managed compute service for deploying and scaling containerized applications quickly and securely.
+**[![Cloud Run](https://img.youtube.com/vi/AL2rAmWFZjM/0.jpg)](https://www.youtube.com/watch?v=AL2rAmWFZjM)**
 
-**[![Source: YouTube](https://img.youtube.com/vi/AL2rAmWFZjM/0.jpg)](https://www.youtube.com/watch?v=AL2rAmWFZjM)**
+**Serverless Spectrum (Universal Pattern):**
+1. **Functions-as-a-Service**: Single-purpose functions (Cloud Functions, Lambda, Azure Functions)
+2. **Containers-as-a-Service**: Full apps in containers (Cloud Run, AWS Fargate, Azure Container Instances)
+3. **Platform-as-a-Service**: Complete frameworks (App Engine, Heroku, Azure App Service)
 
-**Key Takeaways:**
-*   Cloud Run simplifies running containerized workloads.
-*   It automatically scales containers up and down based on demand.
-*   You only pay for the resources used while your code is running.
+**When to Use:**
+- Event-driven workloads (file uploads, API requests)
+- Variable traffic (scale-to-zero capability)
+- Reduced operational complexity
 
-#### 8. Intro to Apigee API Management
+**[Cloud Run Documentation](https://cloud.google.com/run/docs)**
 
-Discover how Apigee, Google Cloud's API management platform, helps organizations design, secure, deploy, and monitor APIs effectively.
+---
 
-**[![Source: YouTube](https://img.youtube.com/vi/vGe38icp0n4/0.jpg)](https://www.youtube.com/watch?v=vGe38icp0n4)**
+#### 4. Data Processing: Batch and Streaming
 
-**Key Takeaways:**
-*   Learn the benefits of Apigee for API management.
-*   Understand how Apigee supports both modern microservices and older backend services.
-*   Explore the three key pillars of API management with Apigee.
+**Topic**: Processing data at scale (one pattern: unified batch and streaming)
 
-#### 9. Cloud Pub/Sub in a Minute
+**Apache Beam Concepts** (Cloud-agnostic framework):
+- Write once, run anywhere (Dataflow, Spark, Flink)
+- Unified programming model
+- Windows, triggers, watermarks for streaming
 
-A brief explanation of Cloud Pub/Sub, an asynchronous, scalable messaging service designed to decouple services that produce and consume events.
+**[![Dataflow Overview](https://img.youtube.com/vi/XdsuDOQ9nkU/0.jpg)](https://www.youtube.com/watch?v=XdsuDOQ9nkU)**
 
-**[![Source: YouTube](https://img.youtube.com/vi/jLI-84UjZLE/0.jpg)](https://www.youtube.com/watch?v=jLI-84UjZLE)**
+**GCP Implementations:**
+- **Dataflow**: Managed Apache Beam (serverless)
+- **Dataproc**: Managed Spark/Hadoop (VM-based)
 
-**Key Takeaways:**
-*   Understand the concept of Pub/Sub and its primary use cases.
-*   Learn how Pub/Sub enables real-time, reliable message delivery.
-*   Explore its scalability and high availability features.
+**[![Dataproc](https://img.youtube.com/vi/lHYHXzFCF10/0.jpg)](https://www.youtube.com/watch?v=lHYHXzFCF10)**
 
-#### 10. Networking in a Minute
+**Decision Guide:**
+- Dataflow: New projects, unified batch/streaming, auto-scaling
+- Dataproc: Existing Spark/Hadoop code, granular control
 
-Discover how Virtual Private Cloud (VPC) provides the networking foundation for your resources, enabling you to connect them globally and secure them with firewall rules.
+**[GCP Data Processing Reference Architectures](https://cloud.google.com/architecture/reference-patterns/overview)**
 
-**[![Source: Video](https://docs.cloud.google.com/static/vpc-service-controls/images/service_perimeter_private.png)](https://www.cloudskillsboost.google/focuses/1229?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=42028897)**
+---
 
-**Key Takeaways:**
-*   Explore the default VPC network
-*   Create an auto mode network with firewall rules
-*   Create VM instances using Compute Engine
-*   Explore the connectivity for VM instances
+#### 5. Workflow Orchestration with Apache Airflow
+
+**Topic**: Scheduling and monitoring data pipelines (one tool: Airflow everywhere)
+
+**[![Cloud Composer](https://img.youtube.com/vi/3UfYwR3Uwgw/0.jpg)](https://www.youtube.com/watch?v=3UfYwR3Uwgw)**
+
+**Apache Airflow Fundamentals** (Cloud-Agnostic):
+- Directed Acyclic Graphs (DAGs) for workflow definition
+- Operators for different tasks (Python, SQL, sensors)
+- Extensible with custom operators
+- Runs on GCP (Composer), AWS (MWAA), Azure (Data Factory), self-hosted
+
+**Cloud Composer = Managed Airflow on GCP**
+
+**Best Practices:**
+- Idempotent tasks (rerunnable)
+- Separate configuration from code
+- Monitor task duration and failures
+
+**Resources:**
+- [Apache Airflow Documentation](https://airflow.apache.org/docs/)
+- [Awesome Apache Airflow](https://github.com/jghoman/awesome-apache-airflow)
+
+---
+
+#### 6. Messaging and Event-Driven Architecture
+
+**Topic**: Decoupling systems with async messaging (universal pattern)
+
+**[![Cloud Pub/Sub](https://img.youtube.com/vi/jLI-84UjZLE/0.jpg)](https://www.youtube.com/watch?v=jLI-84UjZLE)**
+
+**Pub/Sub Pattern** (Works everywhere):
+- Publishers send messages to topics
+- Subscribers consume from subscriptions
+- Decouples producers and consumers
+- Examples: Pub/Sub (GCP), SNS/SQS (AWS), Service Bus (Azure), Kafka (self-hosted)
+
+**Key Concepts:**
+*   At-least-once delivery semantics
+*   Message ordering (when needed)
+*   Dead-letter topics for failures
+*   Fan-out patterns for multiple consumers
+
+**Use Cases:**
+- Stream processing pipelines
+- Microservices communication
+- Event-driven serverless
+- Log aggregation
+
+**[Event-Driven Architecture Patterns](https://cloud.google.com/architecture/event-driven-architectures)**
+
+---
+
+#### 7. Container Registry and Artifact Management
+
+**Topic**: Managing build artifacts (one practice: version control for binaries)
+
+**[![Artifact Registry](https://img.youtube.com/vi/712Y0KpeHok/0.jpg)](https://www.youtube.com/watch?v=712Y0KpeHok)**
+
+**Universal Concepts:**
+*   Container image registries (Docker Hub, ECR, ACR, Artifact Registry)
+*   Versioning and tagging strategies
+*   Vulnerability scanning
+*   Integration with CI/CD
+
+**GCP Artifact Registry:**
+- Supports Docker, Maven, npm, Python packages
+- Regional and multi-regional repositories
+- IAM integration for access control
+
+---
+
+### Hands-On Practice
+
+**System Design Exercise**: Design a scalable data processing pipeline
+1. Data ingestion (Pub/Sub)
+2. Processing (Dataflow)
+3. Storage (BigQuery)
+4. Orchestration (Composer)
+
+**Practical Labs:**
+- [GCP Qwiklabs - Cloud Run](https://www.cloudskillsboost.google/focuses/5161)
+- [Kubernetes Basics Tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Dataflow Templates](https://cloud.google.com/dataflow/docs/guides/templates/provided-templates)
+
+**Time**: 2-3 hours
+
+### Further Reading
+
+- **Book**: "Site Reliability Engineering" by Google - [Free Online](https://sre.google/sre-book/table-of-contents/)
+- **Book**: "System Design Interview" by Alex Xu - Chapter 1-4
+- **GitHub**: [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- **GitHub**: [Learning Cloud](https://github.com/lynnlangit/learning-cloud)
+- **GCP**: [Architecture Framework](https://cloud.google.com/architecture/framework)
