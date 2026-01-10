@@ -63,3 +63,8 @@ This short video introduces Looker Studio, a self-service analytics and data vis
 *   Looker Studio simplifies the creation of interactive dashboards and reports.
 *   Enables integration with multiple data sources without requiring IT support.
 *   Ideal for democratizing data analysis and sharing results across teams.
+
+#### Further Reading
+*   [BigQuery ML Docs](https://cloud.google.com/bigquery/docs/bqml-introduction) – SQL-based ML, train where data lives
+*   [Vertex AI Docs](https://cloud.google.com/vertex-ai/docs/start/introduction-unified-platform) – Training, pipelines, monitoring
+*   [Google Cloud AI APIs](https://cloud.google.com/products/ai) – Vision, NLP, Video, Speech, Translation
