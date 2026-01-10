@@ -134,3 +134,14 @@ Discover how Virtual Private Cloud (VPC) provides the networking foundation for 
 *   Create an auto mode network with firewall rules
 *   Create VM instances using Compute Engine
 *   Explore the connectivity for VM instances
+
+#### Further reading
+*   [System Design Primer - Scalability](https://github.com/donnemartin/system-design-primer#scalability) – High-level architecture thinking.
+*   [GCP Compute Docs](https://cloud.google.com/compute/docs) – VMs, serverless, containers.
+*   [Apache Beam Concepts](https://beam.apache.org/) – Dataflow pipelines.
+*   [Cloud Composer / Airflow Docs](https://airflow.apache.org/docs/) – Orchestrate workflows.
+*   [Kubernetes: Up & Running](https://www.oreilly.com/library/view/kubernetes-up-and/9781098110192/) – Core orchestration concepts.
+*   [Cloud Run Docs](https://cloud.google.com/run/docs) – Containerized services.
+*   [Event-Driven Architecture Patterns](https://cloud.google.com/architecture/event-driven-architectures) – Pub/Sub & serverless patterns.
+*   [GCP Architecture Framework](https://cloud.google.com/architecture/framework) – Reference best practices.
+*   [Site Reliability Engineering Book](https://sre.google/sre-book/table-of-contents/) - Google – Reliability & operations.
