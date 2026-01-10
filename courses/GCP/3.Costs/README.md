@@ -102,3 +102,10 @@ Explains how to use Cloud Logging to monitor, troubleshoot, and manage logs from
 *   How to configure basic and advanced log queries.
 *   Using the Logs Router to sink logs to different destinations.
 *   Best practices for monitoring and alerting on errors.
+
+#### Further Reading
+*   [GCP Billing & Cost Analysis Videos](https://www.youtube.com/watch?v=XR_d8u5AGyM) – Track usage, read reports, spot high-cost services.
+*   [FinOps Foundation - Cloud Financial Management](https://www.finops.org/framework/) – Principles for cost control and cloud finance.
+*   [Terraform Tutorials for Cost-Aware Infrastructure](https://developer.hashicorp.com/terraform/tutorials) – Build IaC while monitoring cost impact.
+*   [Terraform Best Practices GitHub](https://github.com/antonbabenko/terraform-best-practices) – Efficient, versioned IaC patterns.
+*   [GCP Architecture Guides GitHub](https://github.com/GCP-Architecture-Guides) – Cost-conscious reference cloud architectures.
