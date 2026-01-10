@@ -109,3 +109,11 @@ Discover how Dataplex can help you unify distributed data, automate data managem
 *   Unifying metadata and enabling data discovery across lakes and warehouses.
 *   Automating data management processes like quality checks and lifecycle policies.
 *   Integrating with analytics tools for scalable, governed insights.
+
+#### Further Reading
+*   [CMU Database Systems Course](https://www.youtube.com/playlist?list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g) - Andy Pavlo – Core database concepts.
+*   [BigQuery Intro}(https://cloud.google.com/bigquery/docs/introduction#bigquery-video-tutorials) – SQL-based analytics & ML.
+*   [Comparing GCP Database Services](https://bluexp.netapp.com/blog/gcp-cvo-blg-google-cloud-database-the-right-service-for-your-workloads) – Pick the right service.
+*   [Designing Data-Intensive Applications](https://dataintensive.net/) - Martin Kleppmann – Fundamentals for reliable data systems.
+*   [Awesome Database Learning GitHub](https://github.com/pingcap/awesome-database-learning) – Curated DB resources.
+*   [GCP Architecture Center - Data Lifecycle](https://cloud.google.com/architecture/data-lifecycle-cloud-platform) – Reference best practices.
