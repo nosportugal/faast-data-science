@@ -17,6 +17,8 @@ By the end of this module, you will be able to:
 -   **Decouple** system components effectively with the Pub/Sub messaging service.
 -   **Grasp** the fundamentals of API management and cloud cost analysis.
 -   **Reinforce** your practical skills in querying large datasets with BigQuery.
+-   **Automate** the creation and management of cloud resources using Terraform (Infrastructure as Code).
+-   **Understand** the fundamentals of container orchestration with Kubernetes.
 
 ---
 
