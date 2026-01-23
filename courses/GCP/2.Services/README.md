@@ -135,6 +135,40 @@ Discover how Virtual Private Cloud (VPC) provides the networking foundation for 
 *   Create VM instances using Compute Engine
 *   Explore the connectivity for VM instances
 
+#### 11. Terraform Explained in 15 Mins
+
+An introductory tutorial on Terraform and its application as infrastructure as code, allowing you to define and provision infrastructure declaratively.
+
+**[![Source: YouTube](https://img.youtube.com/vi/l5k1ai_GBDE/0.jpg)](https://www.youtube.com/watch?v=l5k1ai_GBDE)**
+
+**Key Takeaways:**
+*   What Terraform is and how it works.
+*   The difference between Terraform and other tools like Ansible.
+*   Basic commands and architecture of Terraform.
+
+#### 12. Kubernetes Explained in 15 Minutes
+
+A practical overview of Kubernetes, the industry-standard system for automating the deployment, scaling, and management of containerized applications.
+
+**[![Source: YouTube](https://img.youtube.com/vi/r2zuL9MW6wc/0.jpg)](https://www.youtube.com/watch?v=r2zuL9MW6wc)**
+
+**Key Takeaways:**
+*   An explanation of containerization and orchestration.
+*   A practical demonstration of a basic configuration in Kubernetes.
+*   Recommended resources for deeper learning.
+
+#### 13. Astro vs. Apache Airflow OSS
+
+A comparison between Astro (a managed Airflow service) and open-source Apache Airflow for data orchestration, highlighting key differences.
+
+**[![Source: Article](https://www.astronomer.io/images/vs-oss/astro-airflow-logos.svg?_cchid=5f1b974eadca9cef8d91d61c4ed99db2)](https://www.astronomer.io/astro-vs-apache-airflow-oss/)**
+
+**Key Takeaways:**
+*   Differences in functionality and architecture between Astro and Airflow.
+*   Benefits of Astro for simplifying data pipeline operations.
+*   Additional resources for exploring Astro.
+
+
 #### Further reading
 *   [System Design Primer - Scalability](https://github.com/donnemartin/system-design-primer#scalability) – High-level architecture thinking.
 *   [GCP Compute Docs](https://cloud.google.com/compute/docs) – VMs, serverless, containers.
