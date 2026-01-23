@@ -81,6 +81,8 @@ This article provides a detailed overview of the main database services offered 
 
 Learn about BigQuery, Google's fully-managed, petabyte-scale analytical data warehouse, and how to use it for querying massive datasets with incredible speed.
 
+**[![Source: YouTube](https://img.youtube.com/vi/q9npE47O2UI/0.jpg)](https://www.youtube.com/watch?v=q9npE47O2UI)**
+
 **[![Source: Google Cloud](https://img.youtube.com/vi/BH_7_zVk5oM/0.jpg)](https://cloud.google.com/bigquery/docs/introduction#bigquery-video-tutorials)**
 
 **Key Takeaways:**
