@@ -26,9 +26,12 @@ By the end of this module, you will be able to:
 
 #### 1. What are the VM types in GCP? And how to choose between them?
 
-This video explains the various types and families of virtual machines (VMs) in Google Compute Engine (GCE) and provides guidelines for selecting the right one for your workloads.
+These videos explains the various types and families of virtual machines (VMs) in Google Compute Engine (GCE) and provides guidelines for selecting the right one for your workloads.
 
-**[![Source: YouTube](https://img.youtube.com/vi/_5tqGhu7V-4/0.jpg)](https://www.youtube.com/watch?v=_5tqGhu7V-4)**
+**[![Source: YouTube](https://img.youtube.com/vi/A2zZ86aYcmI/0.jpg)](https://www.youtube.com/watch?v=A2zZ86aYcmI)**
+
+**[![Source: YouTube](https://img.youtube.com/vi/QZ8PmZjF9vw/0.jpg)](https://www.youtube.com/watch?v=QZ8PmZjF9vw)**
+
 
 **Key Takeaways:**
 *   Understand the different VM types and families in GCP.
