@@ -17,6 +17,8 @@ By the end of this module, you will be able to:
 -   **Decouple** system components effectively with the Pub/Sub messaging service.
 -   **Grasp** the fundamentals of API management and cloud cost analysis.
 -   **Reinforce** your practical skills in querying large datasets with BigQuery.
+-   **Automate** the creation and management of cloud resources using Terraform (Infrastructure as Code).
+-   **Understand** the fundamentals of container orchestration with Kubernetes.
 
 ---
 
@@ -24,9 +26,12 @@ By the end of this module, you will be able to:
 
 #### 1. What are the VM types in GCP? And how to choose between them?
 
-This video explains the various types and families of virtual machines (VMs) in Google Compute Engine (GCE) and provides guidelines for selecting the right one for your workloads.
+These videos explains the various types and families of virtual machines (VMs) in Google Compute Engine (GCE) and provides guidelines for selecting the right one for your workloads.
 
-**[![Source: YouTube](https://img.youtube.com/vi/_5tqGhu7V-4/0.jpg)](https://www.youtube.com/watch?v=_5tqGhu7V-4)**
+**[![Source: YouTube](https://img.youtube.com/vi/A2zZ86aYcmI/0.jpg)](https://www.youtube.com/watch?v=A2zZ86aYcmI)**
+
+**[![Source: YouTube](https://img.youtube.com/vi/QZ8PmZjF9vw/0.jpg)](https://www.youtube.com/watch?v=QZ8PmZjF9vw)**
+
 
 **Key Takeaways:**
 *   Understand the different VM types and families in GCP.
@@ -134,6 +139,40 @@ Discover how Virtual Private Cloud (VPC) provides the networking foundation for 
 *   Create an auto mode network with firewall rules
 *   Create VM instances using Compute Engine
 *   Explore the connectivity for VM instances
+
+#### 11. Terraform Explained in 15 Mins
+
+An introductory tutorial on Terraform and its application as infrastructure as code, allowing you to define and provision infrastructure declaratively.
+
+**[![Source: YouTube](https://img.youtube.com/vi/l5k1ai_GBDE/0.jpg)](https://www.youtube.com/watch?v=l5k1ai_GBDE)**
+
+**Key Takeaways:**
+*   What Terraform is and how it works.
+*   The difference between Terraform and other tools like Ansible.
+*   Basic commands and architecture of Terraform.
+
+#### 12. Kubernetes Explained in 15 Minutes
+
+A practical overview of Kubernetes, the industry-standard system for automating the deployment, scaling, and management of containerized applications.
+
+**[![Source: YouTube](https://img.youtube.com/vi/r2zuL9MW6wc/0.jpg)](https://www.youtube.com/watch?v=r2zuL9MW6wc)**
+
+**Key Takeaways:**
+*   An explanation of containerization and orchestration.
+*   A practical demonstration of a basic configuration in Kubernetes.
+*   Recommended resources for deeper learning.
+
+#### 13. Astro vs. Apache Airflow OSS
+
+A comparison between Astro (a managed Airflow service) and open-source Apache Airflow for data orchestration, highlighting key differences.
+
+**[![Source: Article](https://www.astronomer.io/images/vs-oss/astro-airflow-logos.svg?_cchid=5f1b974eadca9cef8d91d61c4ed99db2)](https://www.astronomer.io/astro-vs-apache-airflow-oss/)**
+
+**Key Takeaways:**
+*   Differences in functionality and architecture between Astro and Airflow.
+*   Benefits of Astro for simplifying data pipeline operations.
+*   Additional resources for exploring Astro.
+
 
 #### Further reading
 *   [System Design Primer - Scalability](https://github.com/donnemartin/system-design-primer#scalability) – High-level architecture thinking.

@@ -12,8 +12,6 @@ By the end of this module, you will be able to:
 
 -   **Analyze** cloud spending using GCP's billing reports and export billing data for deeper analysis.
 -   **Implement** the principle of least privilege by configuring roles and permissions with Cloud IAM.
--   **Automate** the creation and management of cloud resources using Terraform (Infrastructure as Code).
--   **Understand** the fundamentals of container orchestration with Kubernetes.
 -   **Secure** your data at rest by creating and managing encryption keys with Cloud KMS.
 -   **Monitor** and debug your applications effectively using Cloud Logging.
 
@@ -48,40 +46,7 @@ This video explains Identity and Access Management (IAM) in Google Cloud, the co
 *   How to configure roles and service accounts for fine-grained security.
 *   Best practices for organizing permissions in projects.
 
-#### 3. Terraform Explained in 15 Mins
-
-An introductory tutorial on Terraform and its application as infrastructure as code, allowing you to define and provision infrastructure declaratively.
-
-**[![Source: YouTube](https://img.youtube.com/vi/l5k1ai_GBDE/0.jpg)](https://www.youtube.com/watch?v=l5k1ai_GBDE)**
-
-**Key Takeaways:**
-*   What Terraform is and how it works.
-*   The difference between Terraform and other tools like Ansible.
-*   Basic commands and architecture of Terraform.
-
-#### 4. Kubernetes Explained in 15 Minutes
-
-A practical overview of Kubernetes, the industry-standard system for automating the deployment, scaling, and management of containerized applications.
-
-**[![Source: YouTube](https://img.youtube.com/vi/r2zuL9MW6wc/0.jpg)](https://www.youtube.com/watch?v=r2zuL9MW6wc)**
-
-**Key Takeaways:**
-*   An explanation of containerization and orchestration.
-*   A practical demonstration of a basic configuration in Kubernetes.
-*   Recommended resources for deeper learning.
-
-#### 5. Astro vs. Apache Airflow OSS
-
-A comparison between Astro (a managed Airflow service) and open-source Apache Airflow for data orchestration, highlighting key differences.
-
-**[![Source: Article](https://www.astronomer.io/images/vs-oss/astro-airflow-logos.svg?_cchid=5f1b974eadca9cef8d91d61c4ed99db2)](https://www.astronomer.io/astro-vs-apache-airflow-oss/)**
-
-**Key Takeaways:**
-*   Differences in functionality and architecture between Astro and Airflow.
-*   Benefits of Astro for simplifying data pipeline operations.
-*   Additional resources for exploring Astro.
-
-#### 6. Encryption with Cloud KMS Keys
+#### 3. Encryption with Cloud KMS Keys
 
 This video demonstrates how to use the Cloud Key Management Service (KMS) to manage your own cryptographic keys for encrypting data in GCP.
 
@@ -92,7 +57,7 @@ This video demonstrates how to use the Cloud Key Management Service (KMS) to man
 *   The benefits of using customer-managed encryption keys for data security.
 *   A practical demonstration of key configuration.
 
-#### 7. Cloud Logging
+#### 4. Cloud Logging
 
 Explains how to use Cloud Logging to monitor, troubleshoot, and manage logs from all your applications and services running on Google Cloud.
 
