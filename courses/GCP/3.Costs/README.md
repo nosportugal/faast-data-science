@@ -26,7 +26,7 @@ This module provides an overview of cost optimization strategies in Google Cloud
 **[![Source: YouTube 1](https://img.youtube.com/vi/y0ZTg2Ckjz4/0.jpg)] (https://www.youtube.com/watch?v=y0ZTg2Ckjz4)**
 
 **[![Source: YouTube 2](https://img.youtube.com/vi/iz6lxi9BczA/0.jpg)] (https://www.youtube.com/watch?v=iz6lxi9BczA)**
-Artigo: cloud.google.com/blog/topics/developers-practitioners/bigquery-admin-reference-guide-query-optimization
+Article: cloud.google.com/blog/topics/developers-practitioners/bigquery-admin-reference-guide-query-optimization
 
 **[![Source: YouTube 3](https://img.youtube.com/vi/cZgTavxWO2k/0.jpg)] (https://www.youtube.com/watch?v=cZgTavxWO2k)**
 Note: Watch the video from 13 to 42 minutes.
