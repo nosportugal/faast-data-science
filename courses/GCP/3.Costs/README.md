@@ -19,7 +19,39 @@ By the end of this module, you will be able to:
 
 ### Learning Resources
 
-#### 1. Analyze Billing Data and Cost Trends with Reports
+#### 1. Optimizing Costs in BigQuery, Cloud Run, and Compute Engine
+
+This module provides an overview of cost optimization strategies in Google Cloud, highlighting how to control and reduce spending across data, serverless, and compute services.
+
+**[![Source: YouTube 1](https://img.youtube.com/vi/y0ZTg2Ckjz4/0.jpg)] (https://www.youtube.com/watch?v=y0ZTg2Ckjz4)**
+
+**[![Source: YouTube 2](https://img.youtube.com/vi/iz6lxi9BczA/0.jpg)] (https://www.youtube.com/watch?v=iz6lxi9BczA)**
+Artigo: cloud.google.com/blog/topics/developers-practitioners/bigquery-admin-reference-guide-query-optimization
+
+**[![Source: YouTube 3](https://img.youtube.com/vi/cZgTavxWO2k/0.jpg)] (https://www.youtube.com/watch?v=cZgTavxWO2k)**
+Note: Watch the video from 13 to 42 minutes.
+
+**Key Takeaways:**
+*   Difference between returned data vs processed data
+*   Partitioned tables – concept and impact on cost
+*   Clustering — when it helps and when it doesn't
+*   BigQuery pricing overview
+*   On-demand vs capacity pricing (slots)
+*   Good organizational practices
+
+**[![Source: YouTube 4](https://img.youtube.com/vi/Oywj7ammIaw/0.jpg)] (https://www.youtube.com/watch?v=Oywj7ammIaw)**
+
+**[![Source: YouTube 5](https://img.youtube.com/vi/oBH7fBkqMfk/0.jpg)] (https://www.youtube.com/watch?v=oBH7fBkqMfk)**
+
+**[![Source: YouTube 6](https://img.youtube.com/vi/1FPkXkZ1D5E/0.jpg)] (https://www.youtube.com/watch?v=1FPkXkZ1D5E)**
+Note: Watch the video until 32 minutes.
+
+**Key Takeaways:**
+*   How Cloud Run works
+*   Price components (CPU, RAM, time, requests)
+*   VM cost model
+
+#### 2. Analyze Billing Data and Cost Trends with Reports
 
 This video explores how to use billing reports in Google Cloud to analyze costs and identify spending trends.
 
@@ -35,7 +67,7 @@ This video explores how to use billing reports in Google Cloud to analyze costs 
 *   Comparing daily costs and optimizing spending.
 *   Best practices for exporting billing data to BigQuery for advanced analysis.
 
-#### 2. What is Cloud IAM?
+#### 3. What is Cloud IAM?
 
 This video explains Identity and Access Management (IAM) in Google Cloud, the cornerstone of securing your resources.
 
@@ -46,7 +78,7 @@ This video explains Identity and Access Management (IAM) in Google Cloud, the co
 *   How to configure roles and service accounts for fine-grained security.
 *   Best practices for organizing permissions in projects.
 
-#### 3. Encryption with Cloud KMS Keys
+#### 4. Encryption with Cloud KMS Keys
 
 This video demonstrates how to use the Cloud Key Management Service (KMS) to manage your own cryptographic keys for encrypting data in GCP.
 
@@ -57,7 +89,7 @@ This video demonstrates how to use the Cloud Key Management Service (KMS) to man
 *   The benefits of using customer-managed encryption keys for data security.
 *   A practical demonstration of key configuration.
 
-#### 4. Cloud Logging
+#### 5. Cloud Logging
 
 Explains how to use Cloud Logging to monitor, troubleshoot, and manage logs from all your applications and services running on Google Cloud.
 
