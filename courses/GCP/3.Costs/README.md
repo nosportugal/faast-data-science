@@ -23,12 +23,12 @@ By the end of this module, you will be able to:
 
 This module covers BigQuery cost optimization through query efficiency, data scan reduction, and table design techniques.
 
-**[![Source: YouTube 1](https://img.youtube.com/vi/y0ZTg2Ckjz4/0.jpg)] (https://www.youtube.com/watch?v=y0ZTg2Ckjz4)**
+**[![Source: YouTube 1](https://img.youtube.com/vi/y0ZTg2Ckjz4/0.jpg)](https://www.youtube.com/watch?v=y0ZTg2Ckjz4)**
 
-**[![Source: YouTube 2](https://img.youtube.com/vi/iz6lxi9BczA/0.jpg)] (https://www.youtube.com/watch?v=iz6lxi9BczA)**
+**[![Source: YouTube 2](https://img.youtube.com/vi/iz6lxi9BczA/0.jpg)](https://www.youtube.com/watch?v=iz6lxi9BczA)**
 Article: cloud.google.com/blog/topics/developers-practitioners/bigquery-admin-reference-guide-query-optimization
 
-**[![Source: YouTube 3](https://img.youtube.com/vi/cZgTavxWO2k/0.jpg)] (https://www.youtube.com/live/cZgTavxWO2k?si=NMk57zwDnflYsIjp&t=792)**
+**[![Source: YouTube 3](https://img.youtube.com/vi/cZgTavxWO2k/0.jpg)](https://www.youtube.com/live/cZgTavxWO2k?si=NMk57zwDnflYsIjp&t=792)**
 Note: Watch the video from 13 to 42 minutes.
 
 **Key Takeaways:**
@@ -43,11 +43,11 @@ Note: Watch the video from 13 to 42 minutes.
 
 This module covers compute cost optimization using Cloud Run and Compute Engine configuration and resource tuning strategies.
 
-**[![Source: YouTube 4](https://img.youtube.com/vi/Oywj7ammIaw/0.jpg)] (https://www.youtube.com/watch?v=Oywj7ammIaw)**
+**[![Source: YouTube 4](https://img.youtube.com/vi/Oywj7ammIaw/0.jpg)](https://www.youtube.com/watch?v=Oywj7ammIaw)**
 
-**[![Source: YouTube 5](https://img.youtube.com/vi/oBH7fBkqMfk/0.jpg)] (https://www.youtube.com/watch?v=oBH7fBkqMfk)**
+**[![Source: YouTube 5](https://img.youtube.com/vi/oBH7fBkqMfk/0.jpg)](https://www.youtube.com/watch?v=oBH7fBkqMfk)**
 
-**[![Source: YouTube 6](https://img.youtube.com/vi/1FPkXkZ1D5E/0.jpg)] (https://www.youtube.com/watch?v=1FPkXkZ1D5E)**
+**[![Source: YouTube 6](https://img.youtube.com/vi/1FPkXkZ1D5E/0.jpg)](https://www.youtube.com/watch?v=1FPkXkZ1D5E)**
 Note: Watch the video until 32 minutes.
 
 **Key Takeaways:**
